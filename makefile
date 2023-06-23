@@ -1,5 +1,5 @@
-# Homework4
-EXE=HW4
+#Homework5
+EXE=hw5
 
 # Main target
 all: $(EXE)
@@ -24,6 +24,19 @@ endif
 CLEAN=rm -f $(EXE) *.o *.a
 endif
 
+# Dependencies
+ex13.o: ex13.c CSCIx229.h
+fatal.o: fatal.c CSCIx229.h
+errcheck.o: errcheck.c CSCIx229.h
+print.o: print.c CSCIx229.h
+loadtexbmp.o: loadtexbmp.c CSCIx229.h
+loadobj.o: loadobj.c CSCIx229.h
+projection.o: projection.c CSCIx229.h
+
+#  Create archive
+CSCIx229.a:fatal.o errcheck.o print.o loadtexbmp.o loadobj.o projection.o
+	ar -rcs $@ $^
+
 # Compile rules
 .c.o:
 	gcc -c $(CFLG)  $<
@@ -31,7 +44,7 @@ endif
 	g++ -c $(CFLG)  $<
 
 #  Link
-HW4:HW4.o
+hw5:hw5.o   CSCIx229.a
 	gcc $(CFLG) -o $@ $^  $(LIBS)
 
 #  Clean
