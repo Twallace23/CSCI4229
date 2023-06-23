@@ -1,5 +1,5 @@
-# Example 8
-EXE=HW3
+# Homework4
+EXE=HW4
 
 # Main target
 all: $(EXE)
@@ -31,7 +31,7 @@ endif
 	g++ -c $(CFLG)  $<
 
 #  Link
-HW3:HW3.o
+HW4:HW4.o
 	gcc $(CFLG) -o $@ $^  $(LIBS)
 
 #  Clean

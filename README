@@ -1,14 +1,18 @@
-HW3: Objects
+HW4: Projections
 
 Tayvian Wallace
 CSCI4229/5229 Fall 2022
 
 
-I am attempting to create a Star object and the preliminary shape for my goal posts. I would like to keep adding to this scene with the hopes of creating a football game. I had some issues trying to create additional instances of my star, I think it has something to do with how I declared my function. I think that I need to append my function. I would like to come to office hours this week to discuss. I spent around 5 hours trying to complete the assignment.
+Draws out our cylinders and demonstrates projections
+This assignment took me about 9 hours. I struggled trying to figure out how to operate the First Person Navigation.
+
 
 Key bindings
-  m/M        Cycle through different sets of objects
+  m          Toggle between perspective and orthogonal
+  +/-        Changes field of view for perspective
   a          Toggle axes
   arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
   0          Reset view angle
   ESC        Exit
