@@ -1,32 +1,28 @@
-HW5: Lighting
+HW6: Textures and Lighting
 
 Tayvian Wallace
 CSCI4229/5229 Fall 2022
 
 
-The start of a football Scene, 
-I have created the goalposts and the ground I have added lighting to illuminate the scene.
-I spent about 10 hours on this assignment. 
+Adding on to the football Scene I added the other goal post adding a rough
+steel texture to both posts. I also added some grass texture to the field. 
+I spent about 5.5 hours on this assignment. I was having issues converting jpeg to bmp
+to meet the conditions of the loader.
 
 
 
-Key bindings
-l          Toggles lighting
-a/A        Decrease/increase ambient light
-d/D        Decrease/increase diffuse light
-s/S        Decrease/increase specular light
-e/E        Decrease/increase emitted light
+
+
+Key bindings:
+l          Toggle lighting on/off
+t          Change textures
+m          Toggles texture mode modulate/replace
+a/A        decrease/increase ambient light
+d/D        decrease/increase diffuse light
+s/S        decrease/increase specular light
+e/E        decrease/increase emitted light
 n/N        Decrease/increase shininess
-F1         Toggle smooth/flat shading
-F2         Toggle local viewer mode
-F3         Toggle light distance (1/5)
-F8         Change ball increment
-F9         Invert bottom normal
-m          Toggles light movement
 []         Lower/rise light
-p          Toggles ortogonal/perspective projection
-o          Cycles through objects
-+/-        Change field of view of perspective
 x          Toggle axes
 arrows     Change view angle
 PgDn/PgUp  Zoom in and out
