@@ -1,21 +1,19 @@
-HW6: Textures and Lighting
+Final Project
 
 Tayvian Wallace
 CSCI4229/5229 Fall 2022
 
+To run the Program is very easy, Default viewing mode is First Person, When you toggle view modes the arrow keys are needed to change camera angle for proper viewing. When view mode is changed from first person camera of world may be flipped this error was happening infrequently, but using the up and down arrow keys will fix.
 
-Adding on to the football Scene I added the other goal post adding a rough
-steel texture to both posts. I also added some grass texture to the field. 
-I spent about 5.5 hours on this assignment. I was having issues converting jpeg to bmp
-to meet the conditions of the loader.
+I have finished my football scene! I have 11 players on offense and defense aligned as they would be in a football game. I am really proud about how the people objects turned out this was definitely the hardest part of the project. One of my favorite personal touches was the little gatorade jug that I created I also like the little injury table inside of the tent its very subtle and awesome in my opinion.
 
 
 
 
 
 Key bindings:
+z          Change View Mode
 l          Toggle lighting on/off
-t          Change textures
 m          Toggles texture mode modulate/replace
 a/A        decrease/increase ambient light
 d/D        decrease/increase diffuse light
@@ -25,6 +23,5 @@ n/N        Decrease/increase shininess
 []         Lower/rise light
 x          Toggle axes
 arrows     Change view angle
-PgDn/PgUp  Zoom in and out
 0          Reset view angle
 ESC        Exit

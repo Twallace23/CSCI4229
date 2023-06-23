@@ -1,11 +1,10 @@
-z//  CSCIx229 library
+//  CSCIx229 library
 //  Tayvian Wallace
 #include "CSCIx229.h"
-
 //
 //  Set projection
 //
-void Project(double fov,double asp,double dim)
+void Project(double fov, double asp, double dim)
 {
    //  Tell OpenGL we want to manipulate the projection matrix
    glMatrixMode(GL_PROJECTION);

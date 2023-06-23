@@ -1,5 +1,4 @@
-#Homework6
-EXE=HW6
+EXE=Final
 
 # Main target
 all: $(EXE)
@@ -25,7 +24,7 @@ CLEAN=rm -f $(EXE) *.o *.a
 endif
 
 # Dependencies
-HW6.o: HW6.c CSCIx229.h
+Final.o: Final.c CSCIx229.h
 fatal.o: fatal.c CSCIx229.h
 errcheck.o: errcheck.c CSCIx229.h
 print.o: print.c CSCIx229.h
@@ -44,7 +43,7 @@ CSCIx229.a:fatal.o errcheck.o print.o loadtexbmp.o loadobj.o projection.o
 	g++ -c $(CFLG)  $<
 
 #  Link
-HW6:HW6.o   CSCIx229.a
+Final:Final.o   CSCIx229.a
 	gcc $(CFLG) -o $@ $^  $(LIBS)
 
 #  Clean
